@@ -1,0 +1,83 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.nav-menus ul li{
+    font-weight: bold;
+}
+/*footer Section */
+.footer-section {
+    background-color: rgb(241, 239, 109);
+	/* background-image: url(); */
+    background-repeat: no-repeat;
+	padding: 100px 0px 0px 0px;
+	background-size: cover;
+}
+.footer-section h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer-section h4 {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.border-bottoms {
+	background: #ffffff;
+	height: 2px;
+	width: 157px;
+	position: absolute;
+	
+}
+.footer-menu ul {
+	padding: 0px;
+}
+.footer-menu li {
+	width: 100%;
+	float: left;
+	list-style: none;
+}
+.footer-menu li a {
+	text-decoration: none;
+	border-right: 1px solid lightgrey;
+	padding: 2px 20px;
+	color: #111;
+}
+.contact-info ul {
+	list-style: none;
+	padding: 0px;
+	width: 100%;
+	float: left;
+}
+.contact-info ul li {
+	float: left;
+	padding-right: 20px;
+	font-size: 22px;
+}
+/*Copyright Section  */
+.copyright {
+	border-top: 1px solid white;
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.copyright p {
+	margin-top: 10px;
+}
+.copyright ul {
+	list-style: none;
+	float: right;
+	margin-top: 10px;
+}
+.copyright ul li {
+	float: left;
+}
+.copyright ul li a {
+	border-right: 1px solid lightgrey;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #fff;
+}
+.copyright ul li:last-child a {
+	border-right: none;
+}
